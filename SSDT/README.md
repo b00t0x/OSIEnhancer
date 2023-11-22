@@ -8,5 +8,7 @@ In [SSDT-Darwin.aml](./SSDT-Darwin.aml), the `DARW` method is defined, allowing 
 
 In this example, it applies the Skylake Framebuffer for 10.11, the Kaby Lake one for 10.12 to 12, and the Coffee Lake one for 13 and later.
 
+When conflict with `_DSM`, the `XDSM` patch mentioned in [config.plist](./config.plist) is required.
+
 ### SSDT-UHD620-Alt
 [SSDT-UHD620-Alt](./SSDT-UHD620-Alt.dsl) is an alternative format of the same functionality as SSDT-UHD620. It prioritizes the Kaby Lake Framebuffer and applies the Skylake / Coffee Lake ones if it's not available.

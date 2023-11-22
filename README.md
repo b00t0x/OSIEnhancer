@@ -30,7 +30,7 @@ For more information on these uses, see [here](https://github.com/b00t0x/opencor
 To achieve the functionality of `MinKernel` / `MaxKernel`, this kext is provided with [SSDT and samples](./SSDT) for use in combination.
 
 ## Notes
-### Mavericks (10.9) and Earlier
+### Mavericks (10.9) and earlier
 `AcpiInstallInterface` is only implemented in Yosemite (10.10) and later, so you can't use this kext with Mavericks or earlier. It might be possible to replace `AcpiOsValidateInterface` from Leopard (10.5) to Mavericks, but this has not been confirmed.
 
 ## Credits

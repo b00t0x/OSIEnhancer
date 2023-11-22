@@ -8,5 +8,7 @@
 
 この例では、10.11 に Skylake の Framebuffer を適用し、10.12 - 12 では Kaby Lake のものを、13 以降では Coffee Lake のものを適用しています。
 
+`_DSM` が衝突する場合には、[config.plist](./config.plist) に記載されている `XDSM` パッチが必要です。
+
 ### SSDT-UHD620-Alt
 [SSDT-UHD620-Alt](./SSDT-UHD620-Alt.dsl) は SSDT-UHD620 と同じ機能の異なる表現です。Kaby Lake の Framebuffer を優先し、存在しない場合は Skylake / Coffee Lake のものを適用します。
