@@ -1,0 +1,8 @@
+.DS_Store
+bootstrap.sh
+xcuserdata
+xcshareddata
+project.xcworkspace
+build
+/Lilu.kext
+/MacKernelSDK
