@@ -8,7 +8,7 @@ static int kernelVersion = getKernelVersion();
 
 static void installInterfaces() {
     // defined in interfaces.h
-    for (int i = 0; i < sizeof(interfaces) / sizeof(interface_info_t); ++i) {
+    for (int i = 0; i < arrsize(interfaces); ++i) {
         interface_info_t *info = &interfaces[i];
         if (info->maxKernel == 0) {
             info->maxKernel = info->minKernel;
