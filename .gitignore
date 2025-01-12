@@ -1,4 +1,6 @@
 .DS_Store
+.vscode
+ci-bootstrap.sh
 bootstrap.sh
 xcuserdata
 xcshareddata

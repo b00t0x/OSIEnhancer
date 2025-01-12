@@ -63,6 +63,6 @@ PluginConfiguration ADDPR(config) {
     bootargBeta,
     arrsize(bootargBeta),
     KernelVersion::Yosemite,
-    KernelVersion::Sonoma,
+    KernelVersion::Sequoia,
     installInterfaces
 };

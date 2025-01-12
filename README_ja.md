@@ -10,14 +10,14 @@ DSDT や SSDT で OS 判定に使われる `_OSI` 関数で利用可能な文字
 ### `_OSI("Darwin XX")`
 `"Darwin 21"` などの文字列により、カーネルバージョンで macOS バージョンを判別することができます。
 
-`"Darwin 24"` など、将来の macOS リリースにも対応しています（`-osibeta` ブート引数が必要です）。
+`"Darwin 25"` など、将来の macOS リリースにも対応しています（`-osibeta` ブート引数が必要です）。
 
 ### `_OSI("macOS XX")` / `_OSI("OS X 10.XX")`
 `"macOS 12"` などの文字列で macOS バージョンを判別することができます。実際に設定されている文字列は [interfaces.hpp](./OSIEnhancer/interfaces.hpp) を参照してください。
 
 また、`"macOS 15"` など、命名規則が変わらない限り将来の macOS リリースにも対応しています（`-osibeta` ブート引数が必要です）。
 
-### `_OSI("Yosemite")` ... `_OSI("Sonoma")`
+### `_OSI("Yosemite")` ... `_OSI("Sequoia")`
 各 macOS バージョンの名前を利用することもできます。実際に設定されている文字列は [interfaces.hpp](./OSIEnhancer/interfaces.hpp) を参照してください。
 
 ### Intel Framebuffer

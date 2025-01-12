@@ -15,7 +15,7 @@ You can detect the macOS version using strings like `"macOS 12"`. Refer to [inte
 
 It also supports future macOS releases as long as the naming convention doesn't change. ( `-osibeta` boot-arg required )
 
-### `_OSI("Yosemite")` ... `_OSI("Sonoma")`
+### `_OSI("Yosemite")` ... `_OSI("Sequoia")`
 You can also use the names of each macOS version. Refer to [interfaces.hpp](./OSIEnhancer/interfaces.hpp) for the actual strings.
 
 ### Intel Framebuffer

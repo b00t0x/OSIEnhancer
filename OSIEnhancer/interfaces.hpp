@@ -27,6 +27,7 @@ interface_info_t interfaces[] = {
     {"Monterey",      KernelVersion::Monterey},
     {"Ventura",       KernelVersion::Ventura},
     {"Sonoma",        KernelVersion::Sonoma},
+    {"Sequoia",       KernelVersion::Sequoia},
     // macOS by version
     // {"Mac OS X 10.4", KernelVersion::Tiger},
     // {"Mac OS X 10.5", KernelVersion::Leopard},
@@ -43,6 +44,6 @@ interface_info_t interfaces[] = {
     // macOS 11 or later are auto generated
     // interface by range examples
     {"Skylake Framebuffer",     KernelVersion::ElCapitan, KernelVersion::Monterey},
-    {"Kaby Lake Framebuffer",   KernelVersion::Sierra, -1}, // possibly Sonoma is the last
+    {"Kaby Lake Framebuffer",   KernelVersion::Sierra, -1}, // possibly Sequoia is the last
     {"Coffee Lake Framebuffer", KernelVersion::HighSierra, -1},
 };
